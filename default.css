@@ -1,0 +1,541 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.upper{
+    background-color: black;
+    width: 100%;
+    height:45px;
+}
+#user{
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin:10px 100px 0px 10px
+}
+#contet{
+    position: absolute;
+}
+#trolley{
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin:10px 10px 0px 10px
+}
+#image{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+}
+#image::after{
+    clear: both;
+    display: block;
+    content: " "
+}
+#all{
+    background-color: rgba(255, 255, 255, 0);
+}
+.all{
+    background-color: rgba(255, 255, 255, 0);
+}
+.main{
+    background-color: rgba(255, 255, 255, 0);
+}
+.navigation{
+    background-color: rgba(128, 128, 128, 0.132);
+    width: 100%;
+    height:60px
+}
+.logo{
+    width: 35%;
+    float: left
+}
+#fire{
+    margin-left: 100px;
+    color: red;
+    font-size: 30px
+}
+.logo h3{
+    display: inline-block;
+    font-style: italic;
+    color: rgb(223, 202, 202);
+    font-size: 23px;
+    margin:20px 0px 17px 0px;
+}
+.buttons ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.buttons ul li{
+    float: left;
+}
+.buttons ul li a{
+    display: block;
+    color: rgb(223, 202, 202);
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.buttons ul li a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.writings h1{
+    margin: 100px 300px 0px 300px;
+    line-height: 2em;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    border-bottom: 4px solid white;
+}
+.writings h3{
+    font-size: 30px;
+    margin: 10px 300px 0px 300px;
+    color: white;
+    text-align: center;
+    line-height: 3em;
+    border-top: 2px solid white;
+    
+}
+.writings p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.categories{
+    clear: both;
+    margin-top: 300px;
+}
+.categories h2{
+    text-align: center;
+    font-size: 60px;
+    color:black;
+}
+#space{
+    display: inline-block;
+    width: 143px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 588px;
+    margin-top: 30px;
+    border-top:6px solid black;
+    border-bottom: 3px solid black
+}
+.allcat{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#accesories{
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+#first2{
+    width: 100%;
+    height: 100%;
+}
+#accesories h3{
+    display: inline-block;
+    font-size: 39px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+#accesories p{
+    position: absolute;
+    display: inline-block;
+    width: 73px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 78px;
+    margin-top: 30px;
+    border-top:6px solid white;
+    border-bottom: 3px solid white;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%,-50%)
+}
+#Aqua{
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+#first1{
+    width: 100%;
+    height: 100%;
+}
+#Aqua h3{
+    display: inline-block;
+    font-size: 39px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+#Aqua p{
+    position: absolute;
+    display: inline-block;
+    width: 73px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 78px;
+    margin-top: 30px;
+    border-top:6px solid white;
+    border-bottom: 3px solid white;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%,-50%)
+}
+#Jones{
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+#first3{
+    width: 100%;
+    height: 100%;
+}
+#Jones h3{
+    display: inline-block;
+    font-size: 31px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+#Jones p{
+    position: absolute;
+    display: inline-block;
+    width: 73px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 78px;
+    margin-top: 30px;
+    border-top:6px solid white;
+    border-bottom: 3px solid white;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%,-50%)
+}
+#accesories h4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    width: 93px;
+    height: 20px;
+    margin-left: 78px;
+    margin-top: 70px;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%,-50%)
+}
+#Aqua h4{
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        display: inline-block;
+        width: 93px;
+        height: 20px;
+        margin-left: 78px;
+        margin-top: 70px;
+        top: 50%;
+        left: 28%;
+        transform: translate(-50%,-50%)
+}
+#Jones h4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    width: 93px;
+    height: 20px;
+    margin-left: 78px;
+    margin-top: 70px;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%,-50%)
+}
+.ourpro{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+.ourpro h2{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+    color:black;
+}
+.ourpro  p{
+    display: block;
+    width: 143px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 588px;
+    margin-top: 30px;
+    border-top:6px solid black;
+    border-bottom: 3px solid black
+}
+.alltog{
+    clear: both;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-around;
+}
+.sec1{
+    width:200px;
+    height:200px;
+}
+.hid{
+    transform: translate(0%,-100%);
+    background-color: rgba(211, 211, 211, 0);
+    width: 200px;
+    height: 200px;
+}
+.sec1 img{
+    width: 100%;
+    height:100%;
+}
+.hid:hover{
+    background-color: rgba(211, 211, 211, 0.519);
+    visibility: visible;
+}
+#a{
+    color: rgba(165, 42, 42, 0);
+    padding: 48%
+}
+#a:hover{
+    color: rgb(218, 47, 75);
+    font-size: 20px;
+}
+#b{
+    color: rgba(165, 42, 42, 0);
+    padding: 48%
+}
+#b:hover{
+    color: rgb(218, 47, 75);
+    font-size: 20px;
+}
+#c{
+    color: rgba(165, 42, 42, 0);
+    padding: 48%
+}
+#c:hover{
+    color: rgb(218, 47, 75);
+    font-size: 20px;
+}
+#d{
+    color: rgba(165, 42, 42, 0);
+    padding: 48%
+}
+#d:hover{
+    color: rgb(218, 47, 75);
+    font-size: 20px;
+}
+.hid h3{
+    font-size: 15px;
+    text-align: center
+}
+.hid p{
+    font-style: italic;
+    text-align: center;
+}
+.sec1 input{
+    position: absolute;
+    width: 100px;
+    height:30px;
+    background-color:rgb(221, 66, 66);
+    color: white;
+    margin-left: 50px;
+    top:290%
+}
+.cofsup1{
+    clear: both;
+    width: 100%;
+    height:500px;
+}
+.cofsup1 img{
+    width: 100%;
+    height: 100%;
+}
+.cofsup1 h2{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+    top: 335%;
+    left:25%
+}
+.bordfer{
+    position: absolute;
+    display: block;
+    width: 143px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 588px;
+    border-top:6px solid white;
+    border-bottom: 3px solid white;
+    top:350%;
+}
+.hello{
+    position: absolute;
+    top:360%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    left: 280px;
+    width: 60%;
+}
+.shop{
+    position: absolute;
+    width: 100px;
+    height:30px;
+    background-color:rgb(221, 66, 66);
+    color: white;
+    margin-left: 625px;
+    top:375%;
+}
+.testimonials{
+    clear: both;
+    width: 100%;
+    height: 600px;
+}
+.testimonials h2{
+    font-size: 60px;
+    margin-top:150px;
+    text-align: center;
+}
+.space{
+    display: inline-block;
+    width: 143px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 598px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-top:6px solid black;
+    border-bottom: 3px solid black
+}
+.testimonials p{
+    margin-left: 258px;
+    width:60%;
+    text-align: center;
+    font-size: 23px;
+    color: grey
+}
+.testimonials h3{
+    font-size: 40px;
+    margin-top:30px;
+    text-align: center;
+    margin-bottom: 20px
+}
+#dots{
+    font-size: 30px;
+    margin:70px 0px 0px 650px
+}
+.testimonials a:link{
+    text-decoration: none;
+    color: grey
+}
+.onlyphoto{
+    width: 100%;
+    height: 337.25px;
+}
+.ph1{
+    float: left;
+    width: 337.25px;
+    height: 337.25px;
+}
+.ph1 img{
+    width:100%;
+    height: 100%
+}
+.hid1{
+    width:336.25px;
+    height: 337.25px;
+    background-color:rgba(128, 128, 128, 0);
+    position: absolute;
+    top: 500%;
+}
+.hid1:hover{
+    background-color:rgba(17, 6, 6, 0.473);
+}
+#q{
+    color: rgba(165, 42, 42, 0);
+    padding: 46%
+}
+#q:hover{
+    color: rgb(216, 176, 170);
+    font-size: 25px;
+}
+#w{
+    color: rgba(165, 42, 42, 0);
+    padding: 46%
+}
+#w:hover{
+    color: rgb(216, 176, 170);
+    font-size: 25px;
+}
+#e{
+    color: rgba(165, 42, 42, 0);
+    padding: 46%
+}
+#e:hover{
+    color: rgb(216, 176, 170);
+    font-size: 25px;
+}
+#r{
+    color: rgba(165, 42, 42, 0);
+    padding: 46%
+}
+#r:hover{
+    color: rgb(216, 176, 170);
+    font-size: 25px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.945);
+    clear: both;
+    width: 100%;
+    height:500px;
+}
+.whole{
+    clear: both;
+}
+.whole h2{
+    color: white;
+    font-size: 20px;
+    text-align:center;
+}
+.whole h2:nth-child(1){
+    line-height: 100px;
+    padding: 100px 0px 0px 0px
+}
+footer p{
+    color:white;
+    font: size 30px;
+    text-align: center;
+    margin:40px 0px 0px 460px;
+    word-spacing: 10px;
+    width: 32%
+}    
+footer a{
+    text-decoration: none;
+    color: white
+}
+footer a:hover{
+    color: red;
+    text-decoration: underline
+}
